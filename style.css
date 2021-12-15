@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+
+
+
+
+:root{
+    --font-main: 'Josefin Sans', sans-serif;
+    
+    /*Dark Theme*/
+    --Very-Dark-Blue: hsl(235, 21%, 11%);
+    --Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+    --Light-Grayish-Blue: hsl(234, 39%, 85%);
+    --Light-Grayish-Blue-hover: hsl(236, 33%, 92%);
+    --Dark-Grayish-Blue: hsl(234, 11%, 52%);
+    --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+    --Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+
+    /*Light Theme*/
+
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+    --Light-Grayish-Blue: hsl(233, 11%, 84%);
+    --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+    --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+};
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font-main)
+}
+.img-header, .color-body{
+    width: 100%;
+}
+
+.img-header{
+    position: absolute;
+    background-image: url(images/bg-desktop-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    top: 0;
+    z-index: 10;
+}
+
+.color-body{
+    position: absolute;
+    background-color: var(--Very-Dark-Blue);
+    height: 100%;
+}
+
+.todo-main{
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 500px;
+}
+
+.todo-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.todo-header h1{
+    text-transform: uppercase;
+    letter-spacing: 13.8px;
+}
