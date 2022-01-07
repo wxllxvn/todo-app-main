@@ -78,12 +78,19 @@ body{
 }
 
 .todo-header{
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.todo-header h1{
+.todo-header section.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-header section.logo h1{
     text-transform: uppercase;
     letter-spacing: 13.8px;
+}
+
+.todo-header section.create-todo{
+    display: flex;
 }
