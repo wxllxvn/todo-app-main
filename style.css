@@ -73,7 +73,7 @@ body{
     z-index: 99999;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+
     width: 500px;
 }
 
@@ -91,6 +91,17 @@ body{
     letter-spacing: 13.8px;
 }
 
-.todo-header section.create-todo{
+section#create-todo{
     display: flex;
+    flex-direction: row;
+}
+
+section#create-todo input{
+    width: 100%;
+}
+
+div.check-create{
+    background-color: black;
+    width: 20px;
+    height: 20px;
 }
