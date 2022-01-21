@@ -73,7 +73,6 @@ body{
     z-index: 99999;
     display: flex;
     flex-direction: column;
-
     width: 500px;
 }
 
@@ -94,6 +93,7 @@ body{
 section#create-todo{
     display: flex;
     flex-direction: row;
+    padding;
 }
 
 section#create-todo input{
